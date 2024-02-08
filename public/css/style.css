@@ -1,0 +1,53 @@
+html {
+    font-size: 16px;
+    font-weight: bold;
+    color: #663344;
+}
+body {
+    background: lightpink;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.capy-container {
+    max-width: 44rem;
+    margin: 3rem auto;
+}
+
+.capy-container article {
+    margin: 1rem 1.5rem;
+}
+
+.capy-container.main-page p {
+    font-size: 1.12rem;
+}
+
+.capy-img {
+    margin: 0px auto;
+    width: 10rem;
+    margin: 1px auto;
+    display: block;
+}
+
+.main-page {
+    text-align: center;
+}
+
+.home-button {
+    font-size: 1.5rem;
+    position: fixed;
+    background: white;
+    opacity: 90%;
+    border-radius: 3rem;
+    padding: 0.35rem;
+    border: 3px solid brown;
+    right: 1rem;
+    bottom: 1rem;
+}
+
+.home-button:hover {
+    border-color: palevioletred;
+}
