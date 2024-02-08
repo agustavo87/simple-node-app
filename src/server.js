@@ -42,7 +42,7 @@ const server = http.createServer((req, res) => {
         } else {
             res.writeHead(200, { 'Content-Type': contentType });
             res.end(content, 'utf-8');
-            console.log(`url: ${req.url} > ${filePath}`)
+            console.log(`Request url:${req.url} > Path:${filePath}`)
         }
     });
 });
