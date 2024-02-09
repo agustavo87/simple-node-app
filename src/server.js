@@ -1,6 +1,7 @@
-const http = require('node:http');
-const fs = require('fs');
-const path = require('path');
+import http from 'node:http';
+import fs from 'node:fs';
+import path from 'node:path';
+
 const hostname = '0.0.0.0';
 const port = process.env.PORT || 3000;
 const publicPath = 'public'
