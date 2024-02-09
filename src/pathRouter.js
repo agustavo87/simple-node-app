@@ -1,6 +1,9 @@
 import path from 'node:path';
+import dotenv from 'dotenv'
 
-const publicPath = 'public'
+dotenv.config()
+
+const publicPath = process.env.PUBLIC_PATH || 'public'
 
 export default function pathRouter(req) {
     let filePath = `./${publicPath}` + req.url;
@@ -9,6 +12,7 @@ export default function pathRouter(req) {
     }
     const extname = path.extname(filePath);
     let contentType = 'text/html';
+
     switch (extname) {
         case '.js':
             contentType = 'text/javascript';
