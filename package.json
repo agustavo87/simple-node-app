@@ -11,5 +11,8 @@
     "node"
   ],
   "author": "Gustavo Ayala",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  }
 }

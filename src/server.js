@@ -1,6 +1,10 @@
 import http from 'node:http';
 import fs from 'node:fs';
 import pathRouter from './pathRouter.js';
+import dotenv from 'dotenv'
+
+dotenv.config()
+
 
 const hostname = '0.0.0.0';
 const port = process.env.PORT || 3000;

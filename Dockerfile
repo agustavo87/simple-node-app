@@ -9,4 +9,4 @@ RUN npm install -g nodemon
 
 USER node
 
-EXPOSE 3000
+EXPOSE ${PORT}
